@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# workingDirectoryがなかったら作成する
+if [ ! -d "workingDirectory" ]; then
+	mkdir "workingDirectory"
+fi
+
+#workingDirectoryになにかあったら削除する
+if [ -d "workingDirectory" ]; then
+  if [ "$(ls -A workingDirectory)" ]; then
+    rm workingDirectory/*
+  fi
+fi
+
+#sdカードの中身をソートして，一番新しいファイルをworkingDirectoryにコピーする
+find /f/run_1/ -name distance* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_distance.txt 
+find /f/run_1/ -name theta* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_theta.txt 
+find /f/run_1/ -name side* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_side.txt 
+find /f/run_1/ -name cross* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_cross.txt 
+find /f/run_1/ -name current_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_current_velocity.txt 
+find /f/run_1/ -name target_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/first_run_target_velocity.txt 
+
+find /f/run_2/ -name distance* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_distance.txt 
+find /f/run_2/ -name theta* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_theta.txt 
+find /f/run_2/ -name side* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_side.txt 
+find /f/run_2/ -name cross* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_cross.txt 
+find /f/run_2/ -name current_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_current_velocity.txt 
+find /f/run_2/ -name target_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/second_run_target_velocity.txt 
+
+
+find /f/run_3/ -name distance* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_distance.txt 
+find /f/run_3/ -name theta* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_theta.txt 
+find /f/run_3/ -name side* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_side.txt 
+find /f/run_3/ -name cross* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_cross.txt 
+find /f/run_3/ -name current_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_current_velocity.txt 
+find /f/run_3/ -name target_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/third_run_target_velocity.txt 
+
+find /f/run_4/ -name distance* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_distance.txt 
+find /f/run_4/ -name theta* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_theta.txt 
+find /f/run_4/ -name side* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_side.txt 
+find /f/run_4/ -name cross* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_cross.txt 
+find /f/run_4/ -name current_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_current_velocity.txt 
+find /f/run_4/ -name target_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fourth_run_target_velocity.txt 
+
+find /f/run_5/ -name distance* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_distance.txt 
+find /f/run_5/ -name theta* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_theta.txt 
+find /f/run_5/ -name side* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_side.txt 
+find /f/run_5/ -name cross* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_cross.txt 
+find /f/run_5/ -name current_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_current_velocity.txt 
+find /f/run_5/ -name target_velocity* | sed -n '$p' | xargs -i cp -p {} workingDirectory/fifth_run_target_velocity.txt 
