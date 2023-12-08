@@ -1,0 +1,10 @@
+../Core/Src/Motor.cpp:18:10:uint16_t DriveMotor::duty2CounterPeriod(float)	16	static
+../Core/Src/Motor.cpp:25:1:DriveMotor::DriveMotor()	16	static
+../Core/Src/Motor.cpp:29:6:void DriveMotor::init()	16	static
+../Core/Src/Motor.cpp:43:6:void DriveMotor::controlFlip()	24	static
+../Core/Src/Motor.cpp:87:6:void DriveMotor::setDuty(float, float)	24	static
+../Core/Src/Motor.cpp:104:10:uint16_t FanMotor::duty2CounterPeriod(float)	16	static
+../Core/Src/Motor.cpp:111:1:FanMotor::FanMotor(TIM_HandleTypeDef*, uint16_t)	24	static
+../Core/Src/Motor.cpp:114:6:void FanMotor::init()	16	static
+../Core/Src/Motor.cpp:131:6:void FanMotor::controlFlip()	24	static
+../Core/Src/Motor.cpp:142:6:void FanMotor::setDuty(float)	16	static

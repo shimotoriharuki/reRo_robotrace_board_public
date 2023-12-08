@@ -1,0 +1,11 @@
+../Core/Src/Logger.cpp:15:1:Logger::Logger(sdCard*, uint16_t)	32	static
+../Core/Src/Logger.cpp:24:6:void Logger::storeLogs(float)	16	static
+../Core/Src/Logger.cpp:35:6:void Logger::saveLogs(const char*, const char*)	32	static
+../Core/Src/Logger.cpp:40:6:void Logger::clearLogs()	24	static
+../Core/Src/Logger.cpp:50:6:void Logger::start()	16	static
+../Core/Src/Logger.cpp:57:6:void Logger::stop()	16	static
+../Core/Src/Logger.cpp:62:10:uint16_t Logger::getLoggedSize()	16	static
+../Core/Src/Logger.cpp:67:14:const float* Logger::getLogsPointer()	16	static
+../Core/Src/Logger.cpp:72:6:void Logger::importLatestLogs(const char*, const char*)	1072	static
+../Core/Src/Logger.cpp:91:10:uint16_t Logger::getLogsSize()	16	static
+../Core/Src/Logger.cpp:96:7:float Logger::getLogData(uint16_t)	16	static

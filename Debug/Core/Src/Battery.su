@@ -1,0 +1,2 @@
+../Core/Src/Battery.cpp:12:1:Battery::Battery(ADConverter*)	16	static
+../Core/Src/Battery.cpp:18:7:float Battery::getVoltage()	16	static

@@ -1,0 +1,8 @@
+../Core/Src/cppMain.cpp:50:6:void cppInit()	16	static
+../Core/Src/cppMain.cpp:90:6:void cppExit(uint16_t)	16	static
+../Core/Src/cppMain.cpp:100:6:void cppFlip1ms()	8	static
+../Core/Src/cppMain.cpp:149:6:void cppFlip100ns()	8	static
+../Core/Src/cppMain.cpp:155:6:void cppFlip10ms()	8	static
+../Core/Src/cppMain.cpp:161:6:void cppLoop()	8	static
+../Core/Src/cppMain.cpp:165:1:void __static_initialization_and_destruction_0(int, int)	48	static
+../Core/Src/cppMain.cpp:165:1:cpp)	8	static

@@ -1,0 +1,17 @@
+../Core/Src/VelocityControl.cpp:14:1:VelocityControl::VelocityControl(DriveMotor*, Encoder*, IMU*)	24	static
+../Core/Src/VelocityControl.cpp:26:7:float VelocityControl::calcVelocity()	32	static
+../Core/Src/VelocityControl.cpp:39:6:void VelocityControl::pid()	72	static
+../Core/Src/VelocityControl.cpp:80:6:void VelocityControl::pidTranslationOnly()	48	static
+../Core/Src/VelocityControl.cpp:124:6:void VelocityControl::setTargetVelocity(float, float)	24	static
+../Core/Src/VelocityControl.cpp:130:6:void VelocityControl::setTargetTranslationVelocityOnly(float, float)	24	static
+../Core/Src/VelocityControl.cpp:136:6:void VelocityControl::setTranslationGain(float, float, float)	24	static
+../Core/Src/VelocityControl.cpp:143:6:void VelocityControl::setRotationGain(float, float, float)	24	static
+../Core/Src/VelocityControl.cpp:150:6:void VelocityControl::flip()	16	static
+../Core/Src/VelocityControl.cpp:162:6:void VelocityControl::enableAngularVelocityPIDControl()	16	static
+../Core/Src/VelocityControl.cpp:167:6:void VelocityControl::disableAngularVelocityPIDControl()	16	static
+../Core/Src/VelocityControl.cpp:172:6:void VelocityControl::start()	16	static
+../Core/Src/VelocityControl.cpp:178:6:void VelocityControl::stop()	16	static
+../Core/Src/VelocityControl.cpp:185:7:float VelocityControl::getCurrentVelocity()	16	static
+../Core/Src/VelocityControl.cpp:190:7:float VelocityControl::getTranslationRatio()	16	static
+../Core/Src/VelocityControl.cpp:195:7:float VelocityControl::getRotationRatio()	16	static
+../Core/Src/VelocityControl.cpp:200:6:void VelocityControl::setClearFlagOfVelocityControlI()	16	static

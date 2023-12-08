@@ -1,0 +1,8 @@
+../Core/Src/UI.cpp:13:1:Switch::Switch(GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/UI.cpp:15:6:bool Switch::getStatus()	24	static
+../Core/Src/UI.cpp:27:1:LED::LED()	16	static
+../Core/Src/UI.cpp:29:6:void LED::set(int8_t)	16	static
+../Core/Src/UI.cpp:55:1:WheelDial::WheelDial(Encoder*)	16	static
+../Core/Src/UI.cpp:60:6:void WheelDial::flip()	24	static
+../Core/Src/UI.cpp:108:6:bool WheelDial::isCW(bool)	24	static
+../Core/Src/UI.cpp:131:6:bool WheelDial::isCCW(bool)	24	static

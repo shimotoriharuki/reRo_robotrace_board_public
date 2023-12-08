@@ -1,0 +1,4 @@
+../Core/Src/SideSensor.cpp:11:1:SideSensor::SideSensor(GPIO_TypeDef*, uint16_t)	24	static
+../Core/Src/SideSensor.cpp:13:6:void SideSensor::externalInterrupt()	16	static
+../Core/Src/SideSensor.cpp:25:6:void SideSensor::updateState()	16	static
+../Core/Src/SideSensor.cpp:40:6:bool SideSensor::getState()	16	static

@@ -1,0 +1,19 @@
+../Core/Src/Encoder.cpp:19:1:Encoder::Encoder()	16	static
+../Core/Src/Encoder.cpp:22:6:void Encoder::init()	16	static
+../Core/Src/Encoder.cpp:30:6:void Encoder::update()	24	static
+../Core/Src/Encoder.cpp:65:6:void Encoder::getCnt(float&, float&)	24	static
+../Core/Src/Encoder.cpp:71:7:float Encoder::getDistance()	16	static
+../Core/Src/Encoder.cpp:76:7:float Encoder::getDistance10mm()	16	static
+../Core/Src/Encoder.cpp:81:7:float Encoder::getTotalDistance()	16	static
+../Core/Src/Encoder.cpp:86:6:void Encoder::setTotalDistance(float)	16	static
+../Core/Src/Encoder.cpp:97:7:float Encoder::getTotalCnt()	16	static
+../Core/Src/Encoder.cpp:102:6:void Encoder::clearDistance10mm()	16	static
+../Core/Src/Encoder.cpp:109:6:void Encoder::clearTotalDistance()	16	static
+../Core/Src/Encoder.cpp:114:7:float Encoder::getSideLineJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:119:6:void Encoder::clearSideLineJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:123:7:float Encoder::getCrossLineJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:128:6:void Encoder::clearCrossLineJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:133:7:float Encoder::getGoalJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:138:6:void Encoder::clearGoalJudgeDistance()	16	static
+../Core/Src/Encoder.cpp:142:7:float Encoder::getGoalAreaDistance()	16	static
+../Core/Src/Encoder.cpp:147:6:void Encoder::clearGoalAreaDistance()	16	static

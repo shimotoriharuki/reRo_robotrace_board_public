@@ -1,0 +1,7 @@
+../Core/Src/FollowingSensor.cpp:15:1:FollowingSensor::FollowingSensor(ADConverter*)	72	static
+../Core/Src/FollowingSensor.cpp:33:6:void FollowingSensor::init()	16	static
+../Core/Src/FollowingSensor.cpp:37:6:void FollowingSensor::storeValues()	24	static
+../Core/Src/FollowingSensor.cpp:50:6:void FollowingSensor::updateValues()	64	static
+../Core/Src/FollowingSensor.cpp:81:6:void FollowingSensor::calibration()	120	static
+../Core/Src/FollowingSensor.cpp:117:6:void FollowingSensor::printSensorValues()	16	static
+../Core/Src/FollowingSensor.cpp:122:6:bool FollowingSensor::isAllSensorBlack()	24	static
