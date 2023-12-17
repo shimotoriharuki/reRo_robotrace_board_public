@@ -13,5 +13,5 @@ CubeIDE 1.11.2
 # LICENSE
 This repository is released under the BSD 3-Clause license.
 
-© Haruki SHIMOTORI
+© Haruki SHIMOTORI and IGC8810
 
